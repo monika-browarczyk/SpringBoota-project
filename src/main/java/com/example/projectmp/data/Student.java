@@ -1,5 +1,7 @@
 package com.example.projectmp.data;
 
-public class Student {
+import java.util.UUID;
+
+public record Student(UUID id, String name) {
 
 }
